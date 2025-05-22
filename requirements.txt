@@ -1,1 +1,6 @@
-fastapi[all]
+fastapi
+uvicorn[standard]  # for running the app
+pydantic
+pymongo             # for MongoDB connection
+dnspython           # sometimes required by pymongo when using SRV URIs
+python-dotenv       # if you're using environment variables from a .env file
